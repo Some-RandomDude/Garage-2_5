@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website", "Garage 2_5\Website.csproj", "{262C9F81-7BD0-4AF9-B4A3-95AE7F3050EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{64667E64-8527-4A48-9EAE-35FCB8BB2559}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{F6C3D4B3-EFE8-4A92-ADD1-8F25C39F3B59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{262C9F81-7BD0-4AF9-B4A3-95AE7F3050EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{262C9F81-7BD0-4AF9-B4A3-95AE7F3050EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{262C9F81-7BD0-4AF9-B4A3-95AE7F3050EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{262C9F81-7BD0-4AF9-B4A3-95AE7F3050EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64667E64-8527-4A48-9EAE-35FCB8BB2559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64667E64-8527-4A48-9EAE-35FCB8BB2559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64667E64-8527-4A48-9EAE-35FCB8BB2559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64667E64-8527-4A48-9EAE-35FCB8BB2559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6C3D4B3-EFE8-4A92-ADD1-8F25C39F3B59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6C3D4B3-EFE8-4A92-ADD1-8F25C39F3B59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6C3D4B3-EFE8-4A92-ADD1-8F25C39F3B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6C3D4B3-EFE8-4A92-ADD1-8F25C39F3B59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
