@@ -15,9 +15,11 @@ namespace Models
         public int Id { get; set; }
         public string RegNum { get; set; }
         public DateTime TimeOfCheckIn { get; set; }
+        public string Color { get; set; }
         public int VehicleTypeId { get; set; }
-        public VehicleType VehicleType { get; set; }
         public int MemberId { get; set; }
-        public Member Member { get; set; }
+
+        public virtual VehicleType VehicleType { get; set; }
+        public virtual Member Member { get; set; }
     }
 }

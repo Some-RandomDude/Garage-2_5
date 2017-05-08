@@ -22,6 +22,23 @@ namespace Garage_2_5.Controllers
             return View(model);
         }
 
+        [HttpPost, ActionName("Index")]
+        public ActionResult Index(string SearchFirstName, string SearchLastName)
+        {
+
+            var result = Search(SearchFirstName, SearchLastName);
+            
+            return View("Index",result.ToList());
+        }
+
+        private IQueryable<Member> Search(string firstName, string lastName)
+        {
+            var vm = db.Members
+                   .Where(v => firstName == string.Empty || v.FirstName.Contains(firstName))
+                   .Where(v => lastName == string.Empty || v.LastName.Contains(lastName));
+            return vm;
+        }
+
         // GET: Members/Details/5
         public ActionResult Details(int? id)
         {

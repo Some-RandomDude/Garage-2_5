@@ -24,6 +24,7 @@ namespace DataAccessLayer.Migrations
                         Id = c.Int(nullable: false, identity: true),
                         RegNum = c.String(),
                         TimeOfCheckIn = c.DateTime(nullable: false),
+                        Color = c.String(),
                         VehicleTypeId = c.Int(nullable: false),
                         MemberId = c.Int(nullable: false),
                     })
